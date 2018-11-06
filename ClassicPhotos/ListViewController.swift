@@ -68,7 +68,7 @@ class ListViewController: UITableViewController {
         
         //1
         if cell.accessoryView == nil {
-            let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+            let indicator = UIActivityIndicatorView(style: .gray)
             cell.accessoryView = indicator
         }
         let indicator = cell.accessoryView as! UIActivityIndicatorView
